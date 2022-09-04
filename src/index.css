@@ -222,7 +222,7 @@ nav .link-wrap.visible {
 
 
 .tech-description{
-	margin: 5% 10%;
+	margin: 2% 10% 5% 10%;
 }
 
 .description{
@@ -481,6 +481,7 @@ section:nth-of-type(5) .header-bar {
 .icon-wrap{
 	width: auto;
     flex-direction: row;
+    color: aqua;
 }
 
 .icon {
@@ -523,6 +524,13 @@ input{
     margin: 30px;
 }
 
+.hide{
+	display: none;
+}
+
+.show{
+	display: block;
+}
 
 .backdrop {
   position: fixed;

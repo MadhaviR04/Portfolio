@@ -1,13 +1,14 @@
 import React,{useState} from 'react';
 
 function Contact(props){
-
+  const[showMsgClass, setShowMsgClass] = useState('hide');
   const sendFeedback = (templateId, variables) => {
     window.emailjs.send(
       'service_zcko5on', templateId,
       variables, 'OiVhVxzTDhWLTBAWO'
       ).then(res => {
         console.log('Email successfully sent!')
+        setShowMsgClass("show");
       })
       // Handle errors here however you like, or use a React error boundary
       .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
@@ -32,10 +33,10 @@ function Contact(props){
             Have a question or want to work together?
           </div>
           <form class="flex waypoint animated pop-in" data-animation="pop-in" data-delay=".5s" id="contact-form" onSubmit={handleSubmit}>
-            <input name="name" type="text" placeholder="Your Name"/>
-            <input name="emailid" type="email-id" placeholder="Your Email Id"/>
-            <textarea placeholder="Your Message" type="text" name="message"></textarea>
-            <div id="success">
+            <input name="name" type="text" placeholder="Your Name" required/>
+            <input name="emailid" type="email-id" placeholder="Your Email Id" required/>
+            <textarea placeholder="Your Message" type="text" name="message" required></textarea>
+            <div class={`${showMsgClass}`} id="">
               <div>
                 Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span>
               </div>

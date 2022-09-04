@@ -10,7 +10,7 @@ function TechStack(props) {
 			<div class="flex header waypoint animated slide-in-left" data-animation="slide-in-left">Tech Stack</div>
 			<div class="flex header-bar  animated slide-in-left" data-animation="slide-in-left" data-delay=".5s"></div>
 			<div class="flex">
-	          		<p class="content tech-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+	          		<p class="content tech-description">From my years of experience, I had an opportunity to work with an awesome team and projects, where I was able to grow the technical skills that I can currently utilize. I got to work with both front-end and back-end technologies.</p>
 	        </div>
 			<div class="flex container ">
 				<div class="flex flex-50-gt-sm waypoint bars-wrap animated slide-in-right" data-animation="slide-in-right">

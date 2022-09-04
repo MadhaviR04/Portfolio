@@ -38,8 +38,8 @@ function Aboutme(props) {
 	                  </div>
 	                </div>
 	                <div class="flex waypoint animated fade-in">
-	                  <div class="label bold">Responsive</div>
-	                  <div class="content description">My layouts will work on any device, big or small.</div>
+	                  <div class="label bold">Responsible</div>
+	                  <div class="content description">I like to take Responsiblilty for my work be it, big or small.</div>
 	                </div>
 	              </div>
 	            </div>
@@ -53,7 +53,7 @@ function Aboutme(props) {
 	                </div>
 	                <div class="flex waypoint animated fade-in">
 	                  <div class="label bold">Intuitive</div>
-	                  <div class="content description">Strong preference for easy to use, intuitive UX/UI.</div>
+	                  <div class="content description">Strong preference for easy to use, intuitive User Interface.</div>
 	                </div>
 	              </div>
 
@@ -76,7 +76,7 @@ function Aboutme(props) {
 	          </div>
 	          <div class="flex row content-wrap">
 	          		<h2 class="obj_title">OBJECTIVE</h2>
-	          		<p class="content obective-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+	          		<p class="content obective-content">I'm a Full-Stack Developer, Currently working as a freelancer for developing a billing application for a local retailer. My interest is in developing intuitive user interfaces, Web APIs, and Fast and Scalable backend solutions. I had the privilege of working on building an enterprise-scale product, application software, and a couple of e-commerce website.</p>
 	          </div>
 			</div>
 		</section>
