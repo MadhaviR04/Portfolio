@@ -58,9 +58,9 @@ section {
 }
 
 .profile-img img {
-    width: 10%;
-    border: 2px solid black;
-    border-radius: 87px;
+    width: 340px;
+    border: 2px solid #000;
+    border-radius: 50%;
 }
 
 .header-bar{
@@ -156,18 +156,19 @@ nav .link-wrap.visible {
 /*About*/
 
 .hex-wrap {
-    display: inline-block;
     position: relative;
     text-align: center;
-    width: 100px;
-    height: 100px;
+    height: 90px;
+    padding: 0px 30px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background-color: #04c2c9;
     }
 
 .hexagon{
-	background-color: #04c2c9;
-    display: inline-block;
+	/*background-color: #04c2c9;
+    */display: inline-block;
     height: 100%;
-    width: calc(100% * 0.57735);
+    width: 40px;
 }
 
 .hexagon .obj_icons{
@@ -188,36 +189,38 @@ nav .link-wrap.visible {
 	opacity: 1
 }
 
-.hexagon:before {
+/*.hexagon:before {
     background-color: inherit;
     content: "";
     height: inherit;
     position: absolute;
-    right: calc((100% / 2) - ((100% * 0.57735) / 2));
+    right: 30px;
     top: 0;
     transform: rotateZ(60deg);
     width: inherit;
 }
 
 .hexagon:after {
-        background-color: inherit;
+    background-color: inherit;
     content: "";
     height: inherit;
     position: absolute;
-    right: calc((100% / 2) - ((100% * 0.57735) / 2));
+    right: 30px;
     top: 0;
     transform: rotateZ(-60deg);
     width: inherit;
-}
+}*/
 
 .hexagon .obj_icons{
 	border-radius: 87px;
+	border-radius: 87px;
     z-index: 1;
     position: absolute;
-    left: 12px;
-    top: 12px;
+    left: 30px;
+    top: 10px;
     right: 0;
-    color: aliceblue;
+    color: #f0f8ff;
+    width: 40px
 }
 
 
@@ -244,8 +247,8 @@ nav .link-wrap.visible {
     background-color: #e2e1e1;
     color: #666;
     font-size: 7pt;
-    height: 22px;
-    margin: 0 0 25px 0px;
+    height: 30px;
+    margin: 0 0 30px;
     position: relative;
     width: 60%;
 }
@@ -264,12 +267,15 @@ nav .link-wrap.visible {
 }
 
 .bar .tag {
-    Right: 100%;
     position: absolute;
     top: 0;
     height: 100%;
-    width: 110px;    
-    margin-left: 10%;
+    width: auto;
+    left: 10px;
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
 }
 
 .bar span {
@@ -358,6 +364,7 @@ section:nth-of-type(4) .row {
 
 .mix{	
     margin: 20px;
+    position: relative;
 }
 
 #gallery .mix .card {
@@ -629,3 +636,34 @@ a {
     width: 40rem;
   }
 }
+
+
+@media screen and (max-width: 370px){
+.profile-img img {
+    width: 200px;
+}
+}
+/*@media screen and (min-width: 340px){
+.page-link {
+    color:yellow;
+}
+}
+@media screen and (min-width: 763px){
+.page-link {
+    color:orange;
+}
+}
+@media screen and (min-width: 900px){
+.page-link {
+    color:blue;
+}
+}
+@media screen and (min-width: 1200px){
+.page-link {
+    color:pink;
+}
+}
+@media screen and (min-width: 1400px){
+.page-link {
+    color:red;
+}*/
